@@ -3,6 +3,7 @@ import GridComponent from './Component/GridComponent';
 import CustomCursor from './Component/CustomCursor';
 import HeroCard from './Component/HeroCards';
 import DiamondImages from './Component/DiamondImages';
+import Categories from './Component/Categories';
 
 export default function Home() {
   return (
@@ -31,6 +32,9 @@ export default function Home() {
         <p className="absolute top-[700px] left-[500px] text-4xl w-[700px]">The Met: Ignite Your Curiosity, Inspire Your Imagination</p>
         <p className="absolute top-[400px] right-10 text-1xl w-[300px]">Immerse Yourself in the World of Art: Unveiling the Treasures of The Metropolitan Museum</p>
         <DiamondImages/>
+        <div className='mt-40'>
+        <Categories/>
+        </div>
         </div>
         </div>
       </GridComponent>
