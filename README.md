@@ -17,9 +17,9 @@ Before starting, make sure you have Node.js and npm installed in your system.
 
 Clone the repository to your local machine:
 
-\`\`\`bash
+```bash
 git clone <repository_link>
-\`\`\`
+```
 
 Navigate to the project directory:
 
