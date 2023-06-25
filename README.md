@@ -23,23 +23,23 @@ git clone <repository_link>
 
 Navigate to the project directory:
 
-\`\`\`bash
+```bash
 cd <project_directory>
-\`\`\`
+```
 
 Install all the dependencies:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ## 🏃‍♀️ Running the Project
 
 To start the project, run:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 The project will be live at `http://localhost:3000`
 
