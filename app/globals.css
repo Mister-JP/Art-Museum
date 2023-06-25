@@ -2,26 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .pattern-bg-1 {
+    background-color: #ffffff;
+    background-image:  
+      linear-gradient(#eef1f4 1px, transparent 1px), 
+      linear-gradient(90deg, #eef1f4 1px, #ffffff 1px);
+    background-size: 40px 80px;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  .pattern-bg-2 {
+    background-color: #dadada;
+    background-image:  
+      linear-gradient(#e4e4e472 1px, transparent 1px), 
+      linear-gradient(90deg, #e4e4e472 1px, #f7f7f7 1px);
+    background-size: 40px 80px;
+    background-position: center;
+    background-repeat: repeat;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: 'PlusJakartaSans-Regular';
+  src: url('/fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* body {
+  cursor: none;
+} */
+
+.custom-cursor {
+  position: fixed;
+  z-index: 9999;
+  width: 32px;
+  height: 32px;
+  background-image: url('/mousePointer.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
 }
