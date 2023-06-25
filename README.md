@@ -1,4 +1,8 @@
 # 🏛️ The Metropolitan Museum Project 🎨
+Live demo: [https://art-museum-sand.vercel.app/](https://art-museum-sand.vercel.app/)
+![Preview gif 1](./public/Screenshots/themetgif1.gif)
+![Preview gif 2](./public/Screenshots/themetgif2.gif)
+
 
 This project is a dynamic, artistic application, representing the massive catalogue of the Metropolitan Museum. The application uses the Next.js framework and interacts with the public Metropolitan Museum API to fetch different categories and objects from the museum's collection. This includes a variety of artwork and artifacts, represented in an aesthetically pleasing manner.
 
