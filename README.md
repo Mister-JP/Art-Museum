@@ -1,6 +1,8 @@
 # 🏛️ The Metropolitan Museum Project 🎨
-Live demo: [https://art-museum-sand.vercel.app/](https://art-museum-sand.vercel.app/)
+## Live demo: [https://art-museum-sand.vercel.app/](https://art-museum-sand.vercel.app/)
 ![Preview gif 1](./public/Screenshots/themetgif1.gif)
+
+
 ![Preview gif 2](./public/Screenshots/themetgif2.gif)
 
 
